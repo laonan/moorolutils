@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/moorolutils/__init__.py
+src/moorolutils/sign.py
+src/moorolutils.egg-info/PKG-INFO
+src/moorolutils.egg-info/SOURCES.txt
+src/moorolutils.egg-info/dependency_links.txt
+src/moorolutils.egg-info/top_level.txt
+src/moorolutils.egg-info/zip-safe
+src/tests/__init__.py

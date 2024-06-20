@@ -11,7 +11,7 @@ setuptools.setup(
     description="A collection of utility functions for Moorol..",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/laonan/urltoken",  # github url
+    url="https://github.com/laonan/moorolutils",  # github url
     project_urls={
         "Bug Tracker": "https://github.com/laonan/moorolutils/issues",
     },

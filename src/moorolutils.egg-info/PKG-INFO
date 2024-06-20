@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: moorolutils
+Version: 1.0.0
+Summary: A collection of utility functions for Moorol..
+Home-page: https://github.com/laonan/urltoken
+Author: Laonan
+Author-email: hello@laonan.net
+Project-URL: Bug Tracker, https://github.com/laonan/moorolutils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# moorolutils
+
+## Description
+A collection of utility functions for Moorol.
+
+
+## Installation
+   
+    pip install moorolutils
+
+    
+## Issues
+https://github.com/laonan/moorolutils/issues
