@@ -23,6 +23,8 @@ class HMACUtil:
         self.secret = secret
 
     def verify_signature(self, signature):
+        if not isinstance(signature, bytes):
+            signature = signature.encode('utf-8')
         computed_hmac = self.sign()
         return hmac.compare_digest(computed_hmac, signature)
 

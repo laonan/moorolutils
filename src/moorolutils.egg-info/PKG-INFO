@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: moorolutils
 Version: 1.0.0
 Summary: A collection of utility functions for Moorol..
-Home-page: https://github.com/laonan/urltoken
+Home-page: https://github.com/laonan/moorolutils
 Author: Laonan
 Author-email: hello@laonan.net
 Project-URL: Bug Tracker, https://github.com/laonan/moorolutils/issues
