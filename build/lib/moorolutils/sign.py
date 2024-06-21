@@ -1,16 +1,14 @@
 import hmac
 import hashlib
 import base64
-import json
 
 
 class HMACUtil:
 
     def __init__(self, data, secret):
         if isinstance(data, dict):
-            # if verify third part signature, should be request.body avoid this problem,
-            # not drf request.data
-            data = self.sort_dict_string(data)
+            # should be request.body avoid this problem, not drf request.data
+            raise ValueError('data should be string or bytes, not dict')
 
         if not isinstance(data, bytes):
             data = data.encode('utf-8')
@@ -36,8 +34,3 @@ class HMACUtil:
         data = data.replace('\r', '')
 
         return data
-
-    @staticmethod
-    def sort_dict_string(data):
-        string_data = json.dumps(data, sort_keys=True)
-        return string_data
